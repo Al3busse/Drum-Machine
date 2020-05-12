@@ -1,7 +1,6 @@
 import "./App.css";
 import React, { Component } from "react";
 import Pad from "./components/Pad";
-import IconButton from "@material-ui/core/IconButton";
 import ToggleOffTwoToneIcon from "@material-ui/icons/ToggleOffTwoTone";
 import ToggleOnTwoToneIcon from "@material-ui/icons/ToggleOnTwoTone";
 
@@ -177,11 +176,9 @@ export default class App extends Component {
           showIdDisplay={this.displayAudioId}
           clearDisplay={this.clearDisplay}
         />
-        <div id='switches'>
-          <IconButton color='primary' onClick={this.changeBank}>
-            <this.state.bankIcon />
-            <span>Bank</span>
-          </IconButton>
+        <div id='switches' onClick={this.changeBank}>
+          <this.state.bankIcon style={{ fontSize: "3.5rem" }} />
+          Bank
         </div>
       </div>
     );

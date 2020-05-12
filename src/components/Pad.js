@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import PadButton from "./PadButton";
-
+import "./Pad.css";
 export default class Pad extends Component {
   constructor(props) {
     super(props);

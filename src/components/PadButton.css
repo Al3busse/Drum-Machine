@@ -1,10 +1,12 @@
 .drum-pad {
-  margin: 3px;
-  width: 44px;
-  height: 44px;
+  font-family: "Calculator";
+  font-size: 3rem;
+  margin: 5px;
+  width: 6rem;
+  height: 5rem;
   color: #ffffff;
   font-weight: 600;
-  padding: 12px 16px;
+  padding: auto;
   background: linear-gradient(to bottom, #5e278f 5%, #7654af 100%);
   box-shadow: 1px 1px 1px 1px #ea5573;
   border-radius: 3px;
