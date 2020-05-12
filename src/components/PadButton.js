@@ -1,8 +1,7 @@
 import React, { Component } from "react";
-import { AwesomeButton } from "react-awesome-button";
-import "react-awesome-button/dist/themes/theme-blue.css";
+import "./PadButton.css";
 
-export default class Button extends Component {
+export default class PadButton extends Component {
   constructor(props) {
     super(props);
 
@@ -24,28 +23,24 @@ export default class Button extends Component {
     }
   }
 
-  playAudio() {
+  playAudio(e) {
     const sound = document.getElementById(this.props.keyTrigger);
     sound.currentTime = 0;
     sound.play();
+    this.props.showIdDisplay(this.props.id);
+    this.props.clearDisplay();
   }
 
   render() {
     return (
-      <AwesomeButton
-        className='drum-pad'
-        id={this.props.id}
-        size='small'
-        type='primary'
-        onPress={this.playAudio}
-      >
+      <button className='drum-pad' id={this.props.id} onClick={this.playAudio}>
         <audio
           className='clip'
           id={this.props.keyTrigger}
           src={this.props.audiofile}
         ></audio>
         {this.props.keyTrigger}
-      </AwesomeButton>
+      </button>
     );
   }
 }

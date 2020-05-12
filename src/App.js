@@ -9,65 +9,56 @@ const clearBank = [
   {
     keyCode: 81,
     keyTrigger: "Q",
-    id: "ht04",
-    audiofile:
-      "https://docs.google.com/uc?export=download&id=1AUvQ9T8Dx3FqUErpqoc6YGrRFC7rJSas",
+    id: "Heater-1",
+    audiofile: "https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3",
   },
   {
     keyCode: 87,
     keyTrigger: "W",
-    id: "ht05",
-    audiofile:
-      "https://docs.google.com/uc?export=download&id=1SzBEPRFram_KSOoExkhceQ2PXfKOdH68",
+    id: "Heater-2",
+    audiofile: "https://s3.amazonaws.com/freecodecamp/drums/Heater-2.mp3",
   },
   {
     keyCode: 69,
     keyTrigger: "E",
-    id: "ht06",
-    audiofile:
-      "https://docs.google.com/uc?export=download&id=14VDhXSHUA-wg52fx3qr8AnnjBRkK5df-",
+    id: "Heater-3",
+    audiofile: "https://s3.amazonaws.com/freecodecamp/drums/Heater-3.mp3",
   },
   {
     keyCode: 65,
     keyTrigger: "A",
-    id: "cy01",
-    audiofile:
-      "https://docs.google.com/uc?export=download&id=1dM2JiKjXHgw2c1YbB1u3-jOHlL51LdSf",
+    id: "Heater-4",
+    audiofile: "https://s3.amazonaws.com/freecodecamp/drums/Heater-4_1.mp3",
   },
   {
     keyCode: 83,
     keyTrigger: "S",
-    id: "sd08",
-    audiofile:
-      "https://docs.google.com/uc?export=download&id=1u6XVbtXqA5oWAbsv_l2-zYhg6Phmqtg3",
+    id: "Clap",
+    audiofile: "https://s3.amazonaws.com/freecodecamp/drums/Heater-6.mp3",
   },
   {
     keyCode: 68,
     keyTrigger: "D",
-    id: "sd10",
-    audiofile:
-      "https://docs.google.com/uc?export=download&id=1kb_HNnYYwoopWBS6MowS3hvaLNC3Bunl",
+    id: "Open-HH",
+    audiofile: "https://s3.amazonaws.com/freecodecamp/drums/Dsc_Oh.mp3",
   },
   {
     keyCode: 90,
     keyTrigger: "Z",
-    id: "ch06",
-    audiofile:
-      "https://docs.google.com/uc?export=download&id=1qLquzylBWirShs2i-lEb0OnpdfDtosXT",
+    id: "Kick-n'-Hat",
+    audiofile: "https://s3.amazonaws.com/freecodecamp/drums/Kick_n_Hat.mp3",
   },
   {
     keyCode: 88,
     keyTrigger: "X",
-    id: "lt06",
-    audiofile:
-      "https://docs.google.com/uc?export=download&id=1A_W89kkPPiaDVjfw69aDQaSSHw8P3nAq",
+    id: "Kick",
+    audiofile: "https://s3.amazonaws.com/freecodecamp/drums/RP4_KICK_1.mp3",
   },
   {
     keyCode: 67,
     keyTrigger: "C",
-    id: "bd02",
-    audiofile:
-      "https://docs.google.com/uc?export=download&id=1JsMCGAO7HnoLNp9-PQS__HqiRPdlKNMl",
+    id: "Closed-HH",
+    audiofile: "https://s3.amazonaws.com/freecodecamp/drums/Cev_H2.mp3",
   },
 ];
 
@@ -75,65 +66,57 @@ const distortedBank = [
   {
     keyCode: 81,
     keyTrigger: "Q",
-    id: "ht02",
-    audiofile:
-      "https://docs.google.com/uc?export=download&id=1K8-0MKtRi_rDNHQsWNZwq5UAvZ-7Rpgd",
+    id: "Chord-1",
+    audiofile: "https://s3.amazonaws.com/freecodecamp/drums/Chord_1.mp3",
   },
   {
     keyCode: 87,
     keyTrigger: "W",
-    id: "ht03",
-    audiofile:
-      "https://docs.google.com/uc?export=download&id=1kX1aP5Svb7T1ssMZ14EOzXCeDkiAYQU0",
+    id: "Chord-2",
+    audiofile: "https://s3.amazonaws.com/freecodecamp/drums/Chord_2.mp3",
   },
   {
     keyCode: 69,
     keyTrigger: "E",
-    id: "ch02",
-    audiofile:
-      "https://docs.google.com/uc?export=download&id=1Es1BUVp2gimKCC5J-InQhIrr01SoSXV2",
+    id: "Chord-3",
+    audiofile: "https://s3.amazonaws.com/freecodecamp/drums/Chord_3.mp3",
   },
   {
     keyCode: 65,
     keyTrigger: "A",
-    id: "sn02",
+    id: "Shaker",
     audiofile:
-      "https://docs.google.com/uc?export=download&id=18rNJrcO_z357zot4RsBP6p1g7EBBxhOD",
+      "https://s3.amazonaws.com/freecodecamp/drums/Give_us_a_light.mp3",
   },
   {
     keyCode: 83,
     keyTrigger: "S",
-    id: "sn04",
-    audiofile:
-      "https://docs.google.com/uc?export=download&id=17Yo-bGYNtjeBEy8dNDxdjlr0EZEoJa9s",
+    id: "Open-HH",
+    audiofile: "https://s3.amazonaws.com/freecodecamp/drums/Dry_Ohh.mp3",
   },
   {
     keyCode: 68,
     keyTrigger: "D",
-    id: "cy04",
-    audiofile:
-      "https://docs.google.com/uc?export=download&id=18v53d180FsGdhszs5IO3DJnqNPy6FmQ2",
+    id: "Closed-HH",
+    audiofile: "https://s3.amazonaws.com/freecodecamp/drums/Bld_H1.mp3",
   },
   {
     keyCode: 90,
     keyTrigger: "Z",
-    id: "lt02",
-    audiofile:
-      "https://docs.google.com/uc?export=download&id=1zfTg2cB-06Bh77JCUekTL_fwhQCGN5O2",
+    id: "Punchy-Kick",
+    audiofile: "https://s3.amazonaws.com/freecodecamp/drums/punchy_kick_1.mp3",
   },
   {
     keyCode: 88,
     keyTrigger: "X",
-    id: "lt04",
-    audiofile:
-      "https://docs.google.com/uc?export=download&id=1eHv6XkuB5vm9IF6fL-o-A8K10jZrw7Jy",
+    id: "Side-Stick",
+    audiofile: "https://s3.amazonaws.com/freecodecamp/drums/side_stick_1.mp3",
   },
   {
     keyCode: 67,
     keyTrigger: "C",
-    id: "bd02",
-    audiofile:
-      "https://docs.google.com/uc?export=download&id=1ValhF_q6Qy1OmkISUSbnFhulSn49aFBC",
+    id: "Snare",
+    audiofile: "https://s3.amazonaws.com/freecodecamp/drums/Brk_Snr.mp3",
   },
 ];
 
@@ -144,8 +127,11 @@ export default class App extends Component {
     this.state = {
       currentBank: clearBank,
       bankIcon: ToggleOnTwoToneIcon,
+      display: String.fromCharCode(160),
     };
     this.changeBank = this.changeBank.bind(this);
+    this.clearDisplay = this.clearDisplay.bind(this);
+    this.displayAudioId = this.displayAudioId.bind(this);
   }
 
   changeBank() {
@@ -153,19 +139,50 @@ export default class App extends Component {
       this.setState({
         currentBank: distortedBank,
         bankIcon: ToggleOffTwoToneIcon,
+        display: "Heater Kit",
       });
+      this.clearDisplay();
     } else {
-      this.setState({ currentBank: clearBank, bankIcon: ToggleOnTwoToneIcon });
+      this.setState({
+        currentBank: clearBank,
+        bankIcon: ToggleOnTwoToneIcon,
+        display: "Smooth Piano Kit",
+      });
+      this.clearDisplay();
     }
+  }
+
+  clearDisplay() {
+    setTimeout(
+      () =>
+        this.setState({
+          display: String.fromCharCode(160),
+        }),
+      1500
+    );
+  }
+
+  displayAudioId(id) {
+    this.setState({
+      display: id,
+    });
   }
 
   render() {
     return (
       <div id='drum-machine'>
-        <Pad currentBank={this.state.currentBank} />
-        <IconButton color='primary' onClick={this.changeBank}>
-          <this.state.bankIcon />
-        </IconButton>
+        <p id='display'>{this.state.display}</p>
+        <Pad
+          currentBank={this.state.currentBank}
+          showIdDisplay={this.displayAudioId}
+          clearDisplay={this.clearDisplay}
+        />
+        <div id='switches'>
+          <IconButton color='primary' onClick={this.changeBank}>
+            <this.state.bankIcon />
+            <span>Bank</span>
+          </IconButton>
+        </div>
       </div>
     );
   }
