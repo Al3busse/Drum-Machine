@@ -157,7 +157,7 @@ export default class App extends Component {
         this.setState({
           display: String.fromCharCode(160),
         }),
-      1500
+      2000
     );
   }
 
@@ -170,6 +170,7 @@ export default class App extends Component {
   render() {
     return (
       <div id='drum-machine'>
+        <h1 id='title'>Drum Machine</h1>
         <p id='display'>{this.state.display}</p>
         <Pad
           currentBank={this.state.currentBank}
@@ -177,8 +178,10 @@ export default class App extends Component {
           clearDisplay={this.clearDisplay}
         />
         <div id='switches' onClick={this.changeBank}>
-          <this.state.bankIcon style={{ fontSize: "3.5rem" }} />
-          Bank
+          <this.state.bankIcon
+            style={{ fontSize: "3.5rem", marginRight: "5px" }}
+          />
+          Bank Switch
         </div>
       </div>
     );

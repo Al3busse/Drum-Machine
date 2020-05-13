@@ -5,26 +5,17 @@
   width: 5.65rem;
   height: 4.5rem;
   color: #ffffff;
-  font-weight: 600;
+  font-weight: 300;
   padding: auto;
-  background: linear-gradient(to bottom, #5e278f 5%, #7654af 100%);
-  box-shadow: 2px 2px 1px 0px #ea5573;
   border-radius: 1px;
   border: 1px solid #111;
-}
-
-.drum-pad:hover {
-  background: linear-gradient(to bottom, #ea5573 5%, #5e278f 95%);
-  border: 1px solid #111;
-  box-shadow: 2px 2px 1px 0px #ea5573;
+  cursor: pointer;
 }
 
 .drum-pad:active {
-  background: linear-gradient(to bottom, #5e278f 5%, #ea5573 95%);
   position: relative;
   top: 2px;
-  border: 1px solid #111;
-  box-shadow: 2px 2px 1px 0px #5e278f;
+  left: 1px;
 }
 
 .drum-pad:focus {
