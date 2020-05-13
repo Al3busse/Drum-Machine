@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Drum-Machine/static/css/main.043e2873.chunk.css",
+    "main.js": "/Drum-Machine/static/js/main.67336c05.chunk.js",
+    "main.js.map": "/Drum-Machine/static/js/main.67336c05.chunk.js.map",
+    "runtime-main.js": "/Drum-Machine/static/js/runtime-main.ffe54c2e.js",
+    "runtime-main.js.map": "/Drum-Machine/static/js/runtime-main.ffe54c2e.js.map",
+    "static/js/2.64fd74c8.chunk.js": "/Drum-Machine/static/js/2.64fd74c8.chunk.js",
+    "static/js/2.64fd74c8.chunk.js.map": "/Drum-Machine/static/js/2.64fd74c8.chunk.js.map",
+    "index.html": "/Drum-Machine/index.html",
+    "precache-manifest.cc12790e675d9ee77cd7cd11c6ccefa7.js": "/Drum-Machine/precache-manifest.cc12790e675d9ee77cd7cd11c6ccefa7.js",
+    "service-worker.js": "/Drum-Machine/service-worker.js",
+    "static/css/main.043e2873.chunk.css.map": "/Drum-Machine/static/css/main.043e2873.chunk.css.map",
+    "static/js/2.64fd74c8.chunk.js.LICENSE.txt": "/Drum-Machine/static/js/2.64fd74c8.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/Drum-Machine/static/media/Calculator.ce4b0ee5.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ffe54c2e.js",
+    "static/js/2.64fd74c8.chunk.js",
+    "static/css/main.043e2873.chunk.css",
+    "static/js/main.67336c05.chunk.js"
+  ]
+}
